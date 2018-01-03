@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Helplena|Dashboard</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="ionicons.min.css">
+  <link rel="stylesheet" href="settingscss.css">
+  <link rel="stylesheet" href="dashboard.min.css">
+  <link rel="stylesheet" href="skin-blue.min.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="tablecss.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <header class="main-header">
+    <a href="https://hidude.co" class="logo">
+      <span class="logo-mini"><b>HL</span>
+      <span class="logo-lg"><b>Helplena</b> HL</span>
+    </a>
+
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="helplena.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">helplena</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="user-header">
+                <img src="helplena.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                  helplena - Web Developer
+                  <small>Build your resume!!</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">profile</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">settings</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">logout</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+                </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-sidebar">
+    <section class="sidebar">
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="helplena.jpg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>helplena</p>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <ul class="sidebar-menu" data-widget="tree">
+        
+        <li class="treeview">
+          <a href="#"><i class="fa fa-link"></i> <span>DASHBOARD</span>
+
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Preview</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#employment">Employment</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skillscategories">Skills Categories</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfoliocategories">Portfolio Categories</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#socialprofile">Social Profiles</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+          </section>
+        </div>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+   
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <form id="profile">
+      <legend><h1>Profile</h1></legend>
+
+      <div>
+        <div >you can change your content here</div>
+<pre>        
+        Firstname                   <input  id="Firstname"  type="name" style="width:75%" required >
+       
+        Lastname                    <input  id="Lastname"  type="name"  style="width:75%" required>
+       
+        name                        <input  id="name"  type ="name" style="width:75%" required>
+       
+        Email                       <input  id="Email" type="email" style="width:75%" required>
+       
+        Password                    <input  id="Password"  type="Password"  style="width:75%" required>
+       
+        username                    <input  id="username" type ="name" style="width:75%"  required>
+       
+        About                       <input  id="About" type="text" style="width:75%">
+       
+        Picture                     <input  id="Picture" type="file" >  
+       
+        Signature                   <input  id="Signature" type="file">
+       
+        Date Of Birth               <input  id="dateofbirth" type="date" style="width:75%">
+       
+        Current City                <input  id="currentcity" type="text" style="width:75%">
+       
+        FreeLance Status            <input  id="freelancestatus" type="checkbox">
+       
+        Martial Status              <input  id="martialstatus" type="text" style="width:75%">
+       
+        Nationality                 <input  id="Nationalty" type="text" style="width:75%" >
+       
+        Address                     <input  id="Address"  type="text" style="width:75%">
+       
+        Phone                       <input  id="Phone" type="tel" style="width:75%" >
+       
+        Website                     <input  id="Website" type="url" style="width:75%">
+       
+        Download Resume             <a id="DownloadResume" href="http://hidude.co/images/logo/logo.png" download ><button class="button" style="background-color:#ff0055"><span>download</span></button></a>
+       
+
+
+        Pick Location               <div id="map" style="width:100%;height:400px;background-color: yellow"></div>
+       
+        Active                      <input  id="Active" type="checkbox" checked >
+</pre>
+      </div>
+      <script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6gv517cHB6CkGv5F7HKr3QJTrhwqE3Qw&callback=myMap"></script>
+     </form>
+
+
+<!--settings section-->
+<div id=settings>
+ <h1>Settings</h1>
+ <br><br>
+  <div class="dropdowntemplate"  >
+  <button class="dropbtntemplate" >Profile Template</button>
+  <div class="dropdown-contenttemplate">
+    <a href="#">-none-</a>
+    <a href="#">Ankel</a>
+    <a href="#">Block</a>
+    <a href="#">Karin</a>
+    <a href="#">Simple Left Image</a>
+    <a href="#">Simple No Image</a>
+    <a href="#">Simple Top Image</a>
+    <a href="#">Swift</a>
+  </div>
+</div><br>
+
+<br>
+<br>
+Background Image                     <input type='file' onchange="readURL(this);" /><img id="preview" src="180.png" alt="your image" style="padding-left:200px"/>
+<br><br><br>
+ Download Resume             <a id="DownloadResume" href="http://hidude.co/images/logo/logo.png" download ><button class="button" style="background-color:#001a4d"><span>download</span></button></a>
+
+ <!--image preview-->
+ <script >
+     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#preview')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+
+
+       $(document).ready(function(){
+        $(".add-emp").click(function(){
+            var designation = $("#designation").val();
+            var companyname = $("#companyname").val();
+            var datefrom = $("#datefrom").val();
+            var dateto = $("#dateto").val();
+            var present = $("#present").val();
+            var aboutexperience = $("#aboutexperience").val();
+            var active = $("#active").val();
+            var datetime = $("#datetime").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + designation + "</td><td>" + companyname +  "</td><td>" + datefrom + "</td><td>" + dateto + "</td><td>" + present + "</td><td>" + aboutexperience + "</td><td>" + active + "</td><td>" + datetime + "</td></tr>";
+            $("#temployment tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-emp").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+       $(document).ready(function(){
+        $(".add-edu").click(function(){
+            var degreename = $("#degreename").val();
+            var universityname = $("#universityname").val();
+            var datefrom = $("#datefrom").val();
+            var dateto = $("#dateto").val();
+            var aboutdegree = $("#aboutdegree").val();
+            var active = $("#active").val();
+            var datetime = $("#datetime").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + degreename + "</td><td>" + universityname +  "</td><td>" + datefrom + "</td><td>" + dateto  +"</td><td>"+ aboutdegree + "</td><td>" + active + "</td><td>" + datetime + "</td></tr>";
+            $("#teducation tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-edu").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+       $(document).ready(function(){
+        $(".add-skl").click(function(){
+            var name = $("#name").val();
+            var active = $("#active").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + name + "</td><td>" + active  + "</td></tr>";
+            $("#tskillscategories tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-skl").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+       $(document).ready(function(){
+        $(".add-skll").click(function(){
+            var skillname = $("#skillname").val();
+            var rating = $("#rating").val();
+            var choosecategory = $("#choosecategory").val();
+            var active = $("#active").val();
+            var datetime = $("#datetime").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + skillname + "</td><td>" + rating + "</td><td>" + choosecategory + "</td><td>" + active + "</td><td>" + datetime + "</td></tr>";
+            $("#tskills tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-skll").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    }); 
+    $(document).ready(function(){
+        $(".add-pfl").click(function(){
+            var name = $("#name").val();
+            var active = $("#active").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + name + "</td><td>" + active  + "</td></tr>";
+            $("#tportfoliocategories tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-pfl").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+       $(document).ready(function(){
+        $(".add-pfll").click(function(){
+            var projectname = $("#projectname").val();
+            var projectdesc = $("#projectdesc").val();
+            var picture = $("#picture").val();
+            var link = $("#link").val();
+            var Portfoliocategories = $("#Portfoliocategories").val();
+            var active = $("#active").val();
+            var datetime = $("#datetime").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + projectname + "</td><td>" + projectdesc +  "</td><td>" + picture + "</td><td>" + link + "</td><td>" + Portfoliocategories + "</td><td>" + active + "</td><td>" + datetime + "</td></tr>";
+            $("#tportfolio tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-pfll").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+       $(document).ready(function(){
+        $(".add-scp").click(function(){
+            var socialname = $("#socialname").val();
+            var Sociallink = $("#Sociallink").val();
+            var active = $("#active").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + socialname + "</td><td>" + Sociallink +  "</td><td>" + active  + "</td></tr>";
+            $("#tsocialprofile tbody").append(markup);
+        });
+        
+        // Find and remove selected table rows
+        $(".delete-scp").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+              if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });    
+    
+
+
+        </script>
+          <!-- employment section-->
+        <div id="employment">
+        <form class="tableform">
+         <h2> Employment</h2>
+         
+          list all your employment details<br><br>
+          <pre>
+        <br>        Designation                <input type="text" id="designation" placeholder="Designation" style="width:75%"><br>
+        <br>        Companyname                <input type="text" id="companyname" style="width:75%"><br>
+        <br>        Date From                  <input type="date" id="datefrom" style="width:75%"><br>
+        <br>        Date to                    <input type="date" id="dateto" style="width:75%"><br>
+        <br>        present                    <input type="checkbox" id="present" ><br>
+        <br>        About Experience           <input type="text" id="aboutexperience" style="width:75%"><br>
+        <br>        Active                     <input type="checkbox" id="active" checked><br>
+        <br>        Date Time                  <input type="date" id="datetime" style="width:75%"><br>
+      </pre>
+      <input type="button" class="add-emp" value="Add Row">
+    </form>
+    <table id="temployment">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Designation</th>
+                <th>Companyname</th>
+                <th> Date From </th>
+                <th>Date to</th>
+                <th>present</th>
+                <th>About Experience</th>
+                <th>Active</th>
+                <th>Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>helplena</td>
+                <td>web development</td>
+                <td>01-12-2017</td>
+                <td>28-02-2018</td>
+                <td>yes</td>
+                <td>just started working</td>
+                <td>yes</td>
+                <td>05-12-2017</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-emp">Delete Row</button>
+
+</div>
+<!-- education section-->
+ <div id="education">
+        <form class="tableform">
+         <h2> Education</h2>
+         
+          list all your education details<br><br>
+          <pre>
+        <br>        DegreeeName                <input type="text" id="degreename" placeholder="Designation" style="width:75%"><br>
+        <br>        University name            <input type="text" id="universityname" style="width:75%"><br>
+        <br>        Date start                 <input type="date" id="datefrom" style="width:75%"><br>
+        <br>        Date end                   <input type="date" id="dateto" style="width:75%"><br>
+        <br>        About Degree               <input type="text" id="aboutdegree" style="width:75%"><br>
+        <br>        Active                     <input type="checkbox" id="active" checked><br>
+        <br>        Date Time                  <input type="date" id="datetime" style="width:75%"><br>
+      </pre>
+      <input type="button" class="add-edu" value="Add Row">
+    </form>
+    <table id="teducation">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>University name </th>
+                <th>Companyname</th>
+                <th> Date start </th>
+                <th>Date end</th>
+                <th>About Degree</th>
+                <th>Active</th>
+                <th>Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>abcd</td>
+                <td>efgh</td>
+                <td>01-12-2017</td>
+                <td>28-02-2018</td>
+                <td>just started studying</td>
+                <td>yes</td>
+                <td>05-12-2017</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-emp">Delete Row</button>
+
+</div>
+<!-- skillscategories section-->
+ <div id="skillscategories">
+        <form class="tableform">
+         <h2> SkillsCategories</h2>
+         
+          list all your SkillsCategories details<br><br>
+          <pre>
+        <br>        Name                <input type="text" id="name" placeholder="Skills" style="width:75%"><br>
+        <br>        Active                <input type="text" id="active" style="width:75%"><br>
+        
+      </pre>
+      <input type="button" class="add-skl" value="Add Row">
+    </form>
+    <table id="tskillscategories">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Designation</th>
+                <th>Companyname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>web development</td>
+                <td>yes</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-skl">Delete Row</button>
+
+</div>
+<!-- skills section-->
+ <div id="skills">
+        <form class="tableform">
+         <h2> Skills</h2>
+         
+          list all your Skills details<br><br>
+          <pre>
+        <br>        skillname                  <input type="text" id="skillname" placeholder="skillname" style="width:75%"><br>
+        <br>        rating                     <input type="text" id="rating" style="width:75%"><br>
+        <br>        choosecategory             <input type="text" id="choosecategory" style="width:75%"><br>
+        <br>        Active                     <input type="checkbox" id="active" checked><br>
+        <br>        Date Time                  <input type="date" id="datetime" style="width:75%"><br>
+      </pre>
+      <input type="button" class="add-skll" value="Add Row">
+    </form>
+    <table id="tskills">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>skillname</th>
+                <th>rating</th>
+                <th>choosecategory</th>
+                <th>Active</th>
+                <th>Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>helplena</td>
+                <td>web development</td>
+                <td>just started working</td>
+                <td>yes</td>
+                <td>05-12-2017</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-skll">Delete Row</button>
+
+</div>
+<!-- portfoliocategories section-->
+<div id="portfoliocategories">
+        <form class="tableform">
+         <h2> Portfolio Categories</h2>
+         
+          list all your Portfolio Categories details<br><br>
+          <pre>
+        <br>        Name                <input type="text" id="name" placeholder="Skills" style="width:75%"><br>
+        <br>        Active                <input type="text" id="active" style="width:75%"><br>
+        
+      </pre>
+      <input type="button" class="add-pfl" value="Add Row">
+    </form>
+    <table id="tportfoliocategories">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Designation</th>
+                <th>Companyname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>web development</td>
+                <td>yes</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-pfl">Delete Row</button>
+
+</div>
+<!-- portfolio section-->
+ <div id="portfolio">
+        <form class="tableform">
+         <h2> Portfolio</h2>
+         
+          list all your Portfolio details<br><br>
+          <pre>
+        <br>        projectname                <input type="text" id="projectname" placeholder="projectname" style="width:75%"><br>
+        <br>        projectdesc                <input type="text" id="projectdesc" style="width:75%"><br>
+        <br>        picture                    <input type="date" id="picture" style="width:75%"><br>
+        <br>        link                       <input type="date" id="link" style="width:75%"><br>
+        <br>        Portfolio categories       <input type="text" id="Portfoliocategories" style="width:75%"><br>
+        <br>        Active                     <input type="checkbox" id="active" checked><br>
+        <br>        Date Time                  <input type="date" id="datetime" style="width:75%"><br>
+      </pre>
+      <input type="button" class="add-pfll" value="Add Row">
+    </form>
+    <table id="tportfolio">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>projectname</th>
+                <th>projectdesc</th>
+                <th>picture</th>
+                <th>link</th>
+                <th>Portfolio categories</th>
+                <th>Active</th>
+                <th>Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>hidude</td>
+                <td>web development</td>
+                <td>pic</td>
+                <td>https://www.hidude.co</td>
+                <td>intern</td>
+                <td>yes</td>
+                <td>05-12-2017</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-pfll">Delete Row</button>
+
+</div>
+<!-- socialprofile section-->
+ <div id="socialprofile">
+        <form class="tableform">
+         <h2> Social Profile</h2>
+         
+          list all your Social Profile details<br><br>
+          <pre>
+        <br>        socialname                <input type="text" id="socialname" placeholder="socialname" style="width:75%"><br>
+        <br>        Sociallink                <input type="text" id="Sociallink" style="width:75%"><br>
+        <br>        Active                    <input type="checkbox" id="active" checked><br>
+      </pre>
+      <input type="button" class="add-scp" value="Add Row">
+    </form>
+    <table id="tsocialprofile">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>socialname</th>
+                <th>Sociallink</th>
+                <th>Active</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="record"></td>
+                <td>helplena</td>
+                <td>https://www.hidude.co</td>
+                <td>yes</td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="button" class="delete-scp">Delete Row</button>
+
+</div>
+
+
+
+</div>
+
+
+    </section>
+
+   
+  </div>
+
+
+</div>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="dashboard.min.js"></script>
+</body>
+</html>
+
+
